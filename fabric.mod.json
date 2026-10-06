@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionmod",
+  "version": "${version}",
+  "name": "Auction Overlay",
+  "description": "Auktions-Overlay: zeigt Zahlungen (/pay) als Gebote an.",
+  "authors": ["Luxxy"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.luxxy.auction.AuctionMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
